@@ -30,7 +30,7 @@ Stock Data - Run your scripts on this data to generate the final homework report
 
 * Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
 
-![hard_solution](Images/hard_solution.png)
+![hard_solution](https://github.com/christin-c-sok/VBA-challenge/blob/46fe710b4958732e01005d59b40b1cde71bae2e5/02-Homework/Images/hard_solution.png)
 
 * Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
 
