@@ -24,7 +24,7 @@ Stock Data - Run your scripts on this data to generate the final homework report
 
 * The result should look as follows:
 
-![moderate_solution](Images/moderate_solution.png)
+![moderate_solution](https://github.com/christin-c-sok/VBA-challenge/blob/2f6cc6ac5b23ebcaff24ee02cbe82e066e8cba72/02-Homework/Images/moderate_solution.png)
 
 ## BONUS
 
