@@ -36,13 +36,13 @@ ccs_2016_stockdata_screenshot
 ## Submission
 
   * A screen shot for each year of your results on the Multi Year Stock Data.
-  ## ccs_testdata_screenshot
+  * ccs_testdata_screenshot
     ![ccs_testdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_testdata_screenshot.png)
-  ## ccs_2014_stockdata_screenshot
+  * ccs_2014_stockdata_screenshot
     ![ccs_2014_stockdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_2014_stockdata_screenshot.png)
-  ## ccs_2015_stockdata_screenshot
+  * ccs_2015_stockdata_screenshot
     ![ccs_2015_stockdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_2015_stockdata_screenshot.png)
-  ## ccs_2016_stockdata_screenshot
+  * ccs_2016_stockdata_screenshot
     ![ccs_2016_stockdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_2016_stockdata_screenshot.png)
 
 
