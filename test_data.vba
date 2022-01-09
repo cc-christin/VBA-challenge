@@ -156,7 +156,7 @@ For Each ws In Worksheets
             previous_k = ws.Cells(last_k, 12).Value
                 
             ' previous greatest volume
-            prevous_vol = ws.Cells(last_k, 12).Value
+            prevous_volume = ws.Cells(last_k, 12).Value
                 
     
             ' Greatest Increase
@@ -202,14 +202,20 @@ For Each ws In Worksheets
             
             ' Find Greatest Total Volume
                 
-            If Greatest > volume And Greatest > prevous_vol Then
+            If Greatest > volume And Greatest > prevous_volume Then
                 
                 Greatest = Greatest
                     
-            ElseIf volume > Greatest And volume > prevous_vol Then
+            ElseIf volume > Greatest And volume > prevous_volume Then
                 
                 Greatest = volume
                     
+                greatest_name = ws.Cells(k, 9).Value
+                
+            ElseIf prevous_volume > Greatest And prevous_volume > volume Then
+            
+                Greatest = prevous_volume
+                
                 greatest_name = ws.Cells(last_k, 9).Value
                     
             End If
