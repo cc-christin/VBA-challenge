@@ -5,48 +5,42 @@ Use VBA scripting to analyze real stock market data
 You are well on your way to becoming a programmer and Excel master! In this homework assignment, you will use VBA scripting to analyze real stock market data. Depending on your comfort level with VBA, you may choose to challenge yourself with a few of the challenge tasks.
 
 # Files
-Test Data - Use this while developing your scripts. </br>
-Stock Data - Run your scripts on this data to generate the final homework report.
+# VBA SCRIPTS
+ccs_testdata.vba - used to develop and run code for alphabetical_testing.xlsm and saved in ccs_testdata.xlsm
+ccs_stockdata.vba - final vba code ran on ccs_Multiple_year_stock_data.xlsm and saved in ccs_stockdata.xlsm
+# Excel Workbooks
+ccs_testdata.xlsm - used for development of code and testing
+ccs_stockdata.xlsm - final vba code used for mulit years, 2014, 2015, 2016
+# Images
+ccs_testdata_screenshot
+ccs_2014_stockdata_screenshot
+ccs_2015_stockdata_screenshot
+ccs_2016_stockdata_screenshot
 
 ## Instructions
 
-* Create a script that will loop through all the stocks for one year and output the following information:
+* Create a script that will loop through all stock info for 2014, 2015, 2016
+    * Ticker 
+    * Yearly Change
+    * Percent Change
+    * Total Stock Volume
+    * Greatest % Increase
+    * Greatest % Decrease
+    * Greatest Total Volume
 
-  * The ticker symbol.
 
-  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
-
-  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
-
-  * The total stock volume of the stock.
-
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
-* The result should look as follows:
-
-![moderate_solution](https://github.com/christin-c-sok/VBA-challenge/blob/2f6cc6ac5b23ebcaff24ee02cbe82e066e8cba72/02-Homework/Images/moderate_solution.png)
-
-## BONUS
-
-* Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
-
-![hard_solution](https://github.com/christin-c-sok/VBA-challenge/blob/46fe710b4958732e01005d59b40b1cde71bae2e5/02-Homework/Images/hard_solution.png)
-
-* Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
-
-## Other Considerations
-
-* Use the sheet `alphabetical_testing.xlsx` while developing your code. This data set is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
-
-* Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with a click of the button.
-
-* Some assignments, like this one, contain a bonus. It is possible to achieve mastery on this assignment without completing the bonus. The bonus adds an opportunity to further develop you skills and be rewarded extra points for doing so.
+* Use the sheet `alphabetical_testing.xlsx` while developing your code.
+* Conditional formatting for Yearly Change (positive in green (4), negative in red (3)).
+* Make sure that the script acts the same on every sheet.
 
 ## Submission
 
-* To submit please upload the following to GitHub:
-
   * A screen shot for each year of your results on the Multi Year Stock Data.
+    ![ccs_testdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_testdata_screenshot.png)
+    ![ccs_2014_stockdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_2014_stockdata_screenshot.png)
+    ![ccs_2015_stockdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_2015_stockdata_screenshot.png)
+    ![ccs_2016_stockdata_screenshot](https://github.com/christin-c-sok/VBA-challenge/blob/main/Images/ccs_2016_stockdata_screenshot.png)
+
 
   * VBA scripts as separate files.
 
