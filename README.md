@@ -6,16 +6,16 @@ You are well on your way to becoming a programmer and Excel master! In this home
 
 # Files
 # VBA SCRIPTS
-ccs_testdata.vba - used to develop and run code for alphabetical_testing.xlsm and saved in ccs_testdata.xlsm
-ccs_stockdata.vba - final vba code ran on ccs_Multiple_year_stock_data.xlsm and saved in ccs_stockdata.xlsm
+* ccs_testdata.vba - used to develop and run code for alphabetical_testing.xlsm and saved in ccs_testdata.xlsm
+* ccs_stockdata.vba - final vba code ran on ccs_Multiple_year_stock_data.xlsm and saved in ccs_stockdata.xlsm
 # Excel Workbooks
-ccs_testdata.xlsm - used for development of code and testing
-ccs_stockdata.xlsm - final vba code used for mulit years, 2014, 2015, 2016
+* ccs_testdata.xlsm - used for development of code and testing
+* ccs_stockdata.xlsm - final vba code used for mulit years, 2014, 2015, 2016
 # Images
-ccs_testdata_screenshot
-ccs_2014_stockdata_screenshot
-ccs_2015_stockdata_screenshot
-ccs_2016_stockdata_screenshot
+* ccs_testdata_screenshot
+* ccs_2014_stockdata_screenshot
+* ccs_2015_stockdata_screenshot
+* ccs_2016_stockdata_screenshot
 
 ## Instructions
 
